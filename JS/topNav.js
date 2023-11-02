@@ -4,7 +4,8 @@ const APIlink="http://localhost:5000/api/v1/user/"
 const authenticate=async function(){
     await fetch(APIlink+"test",{
         method:'GET',
-        credentials: 'include'
+        credentials: 'include',
+        mode: 'no-cors'
     }).then(res => res.json()) 
     .then(res => {
         console.log(res)
