@@ -9,14 +9,14 @@ const authenticate=async function(){
     .then(res => {
         console.log(res)
         if(!res.success){
-            window.location.replace("./sign_in.html")
+            // window.location.replace("./sign_in.html")
         }else{
             AccountName.innerText=res.user
         }
     })
     .catch(err=>{
         console.log(err)
-        window.location.replace("./sign_in.html")
+        // window.location.replace("./sign_in.html")
     })
 }
 
