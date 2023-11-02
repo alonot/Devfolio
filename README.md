@@ -7,8 +7,8 @@
 
 ## Contributions:
 * Chirag Varshney -
-      * top Navigation Bar \n
-      * Home-Page\n
+      * top Navigation Bar
+      * Home-Page
       * About
       * Juice page
 
