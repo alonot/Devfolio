@@ -2,7 +2,7 @@ const AccountName=document.getElementById("userInfo")
 const APIlink="http://localhost:5000/api/v1/user/"
 
 const authenticate=async function(){
-    await fetch(APIlink+"auth",{
+    await fetch(APIlink+"test",{
         method:'GET',
         headers:{
             'Accept':'application/json',
